@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+.centrado{
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+head{
+    width: 200px;
+    height: 50px;
+}
+
+header {
+    width: 1060px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#marca img {
+    width: 150px;
+    height: 60px;
+    float:left;
+    margin-top: 20px;
+}
+
+#botonera_principal {
+    display: grid;
+    grid-template-columns: 600px 600px 600px 600px 600px;
+    grid-template-rows: 300px;
+    grid-template-rows: 1fr;
+    width: 0px;
+    height: 400px;
+    float:left;
+    margin-top: 20px;
+}
+#botonera_principal ul {
+    margin: 10;
+    padding: 10;
+    list-style-type: none;
+    float:left;
+}
+#botonera_principal ul li {
+    display: inline;
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+#botonera_principal ul li a {
+    display: inline-block;
+    padding: 20px;
+    background-color: #000000;
+    color:rgb(253, 168, 41);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#botonera_principal ul li a:active {
+    color: rgb(253, 168, 41);
+}
+
+#botonera_principal ul li a:visited {
+    color: rgb(255, 255, 255);
+}
+
+#botonera_principal ul li a:link {
+    color: rgb(255, 145, 1);
+}
+
+#botonera_principal ul li a:hover {
+    color: rgb(41, 247, 14);
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(253, 168, 41);
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+title{
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 168, 41);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor {
+    max-width: 2000px;  
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cinco-columnas {
+    display: grid;
+    grid-template-areas: 
+        "col1 col2 col3 col4 col5"
+        "col1 col2 col3 col4 col5";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 3rem;
+}
+
+.producto a{
+    display: block;
+    background-color: #000000;
+    color:rgb(253, 168, 41);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header {
+    background-color: rgb(253, 168, 41);
+}
+nav {
+    background-color: rgb(253, 168, 41);
+}
